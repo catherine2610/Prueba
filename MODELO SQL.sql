@@ -29,6 +29,6 @@ CREATE TABLE [DB].SINONIMO(
 Ingrediente_Sinonimo_Id INTEGER,
 Ingrediente_Sinonimo  VARCHAR(100)
 
-)PRIMARY INDEX(Indicador);
+)PRIMARY INDEX(Ingrediente_Sinonimo_Id);
 
 
