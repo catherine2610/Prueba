@@ -1,6 +1,6 @@
 ﻿---MODELO SQL
 
-CREATE TABLE [DBC].INGREDIENTE(
+CREATE TABLE [BD].INGREDIENTE(
 
 Ingredientes_Id INTEGER,
 Ingredientes   VARCHAR(100)
@@ -8,7 +8,7 @@ Ingredientes   VARCHAR(100)
 ) PRIMARY INDEX(Ingredientes_Id);
 
 
-CREATE TABLE [DBC].TRADUCCION(
+CREATE TABLE [DB].TRADUCCION(
 
 Traduccion_Id INTEGER,
 Traduccion   VARCHAR(100)
@@ -16,7 +16,7 @@ Traduccion   VARCHAR(100)
 )PRIMARY INDEX(Traduccion_Id);
 
 
-CREATE TABLE [DBC].COMPUESTO(
+CREATE TABLE [DB].COMPUESTO(
 
 Compuesto_Id INTEGER,
 Compuesto   VARCHAR(100)
@@ -24,10 +24,10 @@ Compuesto   VARCHAR(100)
 )PRIMARY INDEX(Compuesto_Id);
 
 
-CREATE TABLE [DBC].SINONIMO(
+CREATE TABLE [DB].SINONIMO(
 
-Indicador INTEGER,
-Sinonimo  VARCHAR(100)
+Ingrediente_Sinonimo_Id INTEGER,
+Ingrediente_Sinonimo  VARCHAR(100)
 
 )PRIMARY INDEX(Indicador);
 
